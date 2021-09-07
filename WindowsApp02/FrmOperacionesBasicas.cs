@@ -87,7 +87,7 @@ namespace WindowsApp02
 
         private void GuardarOperacion(OperacionBasica operacion, int numero1, int numero2, int resultado)
         {
-            string linea=$"{operacion.ToString()}-{numero1}-{numero2} - {resultado}";
+            string linea=$"Operación:{operacion.ToString()}-{numero1}-{numero2} - Resultado= {resultado}";
             ResultadosListBox.Items.Add(linea);
         }
 
